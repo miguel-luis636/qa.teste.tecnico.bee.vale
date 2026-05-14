@@ -44,7 +44,7 @@ Apesar de ser uma aplicação simples, ela simula um sistema real de gestão int
 Foi elaborado um **Plano de Testes** contendo estratégia, abordagem, escopo, técnicas e organização da execução.
 
 📎 Acesse aqui:
-[Plano de Testes – Bee Vale & Rambly]()
+[Plano de Testes – Bee Vale](https://github.com/miguel-luis636/qa.teste.tecnico.bee.vale/blob/main/Plano%20de%20teste.md)
 
 ---
 
@@ -158,30 +158,8 @@ Uncaught TypeError: can't access property "name", employees[idx] is undefined
 
 ### Severidade: 🔴 Alta
 
----
 
-## 🐞 3.3 Inconsistência de exclusão de colaboradores
-
-```txt
-Colaborador não encontrado para exclusão. ID: 7
-Excluído: Elisa Rodrigues
-```
-
-### Problema
-
-* Inconsistência entre ID e estado do array
-* Possível dupla execução de função
-
-### Impacto
-
-* Exclusão incorreta ou duplicada
-* Inconsistência de dados
-
-### Severidade: 🔴 Alta
-
----
-
-## 🐞 3.4 Falta de validação de campos
+## 🐞 3.3 Falta de validação de campos
 
 * Campos aceitam dados inválidos
 * Possível ausência de máscaras (CPF, salário, email)
@@ -195,7 +173,7 @@ Excluído: Elisa Rodrigues
 
 ---
 
-## 🐞 3.5 Problemas de UX e feedback
+## 🐞 3.4 Problemas de UX e feedback
 
 * Falta de loading states
 * Falta de mensagens claras de erro/sucesso
@@ -203,7 +181,7 @@ Excluído: Elisa Rodrigues
 
 ---
 
-## 🐞 3.6 Problemas de responsividade
+## 🐞 3.5 Problemas de responsividade
 
 * Tabela com muitas colunas
 * Possível overflow em telas menores
