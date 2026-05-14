@@ -1,8 +1,8 @@
-# 🧪 Plano de Testes – Sistema de Gestão de Colaboradores (Bee Vale & Rambly)
+# 🧪 Plano de Testes – Sistema de Gestão de Colaboradores (Bee Vale)
 
 ## 📌 1. Identificação
 
-* **Projeto**: Sistema de Gestão de Colaboradores – Desafio QA Bee Vale & Rambly
+* **Projeto**: Sistema de Gestão de Colaboradores – Desafio QA Bee Vale
 
 * **Aplicação**: Módulo de Gestão de Colaboradores
 
