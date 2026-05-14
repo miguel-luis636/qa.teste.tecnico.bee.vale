@@ -2,7 +2,7 @@
 
 ---
 
-# 🔹 CT-001 — Cadastro de colaborador com dados válidos
+# CT-001 — Cadastro de colaborador com dados válidos
 
 | Campo              | Descrição                                                                                                                 |
 | ------------------ | ------------------------------------------------------------------------------------------------------------------------- |
@@ -18,7 +18,7 @@
 
 ---
 
-# 🔹 CT-002 — Cadastro com campos obrigatórios vazios
+# CT-002 — Cadastro com campos obrigatórios vazios
 
 | Campo              | Descrição                                                                   |
 | ------------------ | --------------------------------------------------------------------------- |
@@ -34,7 +34,7 @@
 
 ---
 
-# 🔹 CT-003 — Cadastro com email inválido
+# CT-003 — Cadastro com email inválido
 
 | Campo              | Descrição                                                                            |
 | ------------------ | ------------------------------------------------------------------------------------ |
@@ -50,7 +50,7 @@
 
 ---
 
-# 🔹 CT-004 — Cadastro com CPF inválido
+# CT-004 — Cadastro com CPF inválido
 
 | Campo              | Descrição                                     |
 | ------------------ | --------------------------------------------- |
@@ -67,7 +67,7 @@
 
 ---
 
-# 🔹 CT-005 — Cadastro com múltiplos cliques no botão salvar
+# CT-005 — Cadastro com múltiplos cliques no botão salvar
 
 | Campo              | Descrição                                                                 |
 | ------------------ | ------------------------------------------------------------------------- |
@@ -83,7 +83,7 @@
 
 ---
 
-# 🔹 CT-006 — Cadastro com caracteres especiais
+# CT-006 — Cadastro com caracteres especiais
 
 | Campo              | Descrição                                               |
 | ------------------ | ------------------------------------------------------- |
@@ -100,7 +100,7 @@
 
 ---
 
-# 🔹 CT-007 — Verificar feedback visual durante cadastro
+# CT-007 — Verificar feedback visual durante cadastro
 
 | Campo              | Descrição                                    |
 | ------------------ | -------------------------------------------- |
@@ -116,7 +116,7 @@
 
 ---
 
-# 🔹 CT-008 — Cadastro com texto excessivamente longo
+# CT-008 — Cadastro com texto excessivamente longo
 
 | Campo              | Descrição                                            |
 | ------------------ | ---------------------------------------------------- |
@@ -132,7 +132,7 @@
 
 ---
 
-# 🔹 CT-009 — Persistência correta após cadastro
+# CT-009 — Persistência correta após cadastro
 
 | Campo              | Descrição                                                     |
 | ------------------ | ------------------------------------------------------------- |
