@@ -6,7 +6,7 @@
 
 | Campo              | Descrição                                                                           |
 | ------------------ | ----------------------------------------------------------------------------------- |
-| ID                 | CT-011                                                                              |
+| ID                 | CT-010                                                                              |
 | Tipo de Teste      | Funcional                                                                           |
 | Prioridade         | Alta                                                                                |
 | Objetivo           | Validar edição de colaborador com dados válidos                                     |
@@ -23,7 +23,7 @@
 
 | Campo              | Descrição                                                                        |
 | ------------------ | -------------------------------------------------------------------------------- |
-| ID                 | CT-012                                                                           |
+| ID                 | CT-011                                                                           |
 | Tipo de Teste      | Negativo                                                                         |
 | Prioridade         | Alta                                                                             |
 | Objetivo           | Verificar validação de campos obrigatórios durante edição                        |
@@ -39,7 +39,7 @@
 
 | Campo              | Descrição                                                       |
 | ------------------ | --------------------------------------------------------------- |
-| ID                 | CT-013                                                          |
+| ID                 | CT-012                                                          |
 | Tipo de Teste      | Negativo                                                        |
 | Prioridade         | Alta                                                            |
 | Objetivo           | Validar rejeição de email inválido                              |
@@ -56,7 +56,7 @@
 
 | Campo              | Descrição                                                     |
 | ------------------ | ------------------------------------------------------------- |
-| ID                 | CT-014                                                        |
+| ID                 | CT-013                                                        |
 | Tipo de Teste      | Negativo                                                      |
 | Prioridade         | Alta                                                          |
 | Objetivo           | Verificar validação de CPF durante edição                     |
@@ -73,7 +73,7 @@
 
 | Campo              | Descrição                                        |
 | ------------------ | ------------------------------------------------ |
-| ID                 | CT-015                                           |
+| ID                 | CT-014                                           |
 | Tipo de Teste      | Funcional                                        |
 | Prioridade         | Alta                                             |
 | Objetivo           | Validar persistência das alterações após refresh |
@@ -89,7 +89,7 @@
 
 | Campo              | Descrição                                  |
 | ------------------ | ------------------------------------------ |
-| ID                 | CT-016                                     |
+| ID                 | CT-015                                     |
 | Tipo de Teste      | Funcional                                  |
 | Prioridade         | Média                                      |
 | Objetivo           | Verificar comportamento ao cancelar edição |
@@ -105,7 +105,7 @@
 
 | Campo              | Descrição                                    |
 | ------------------ | -------------------------------------------- |
-| ID                 | CT-017                                       |
+| ID                 | CT-016                                       |
 | Tipo de Teste      | Negativo                                     |
 | Prioridade         | Média                                        |
 | Objetivo           | Validar tratamento de caracteres especiais   |
@@ -122,7 +122,7 @@
 
 | Campo              | Descrição                                 |
 | ------------------ | ----------------------------------------- |
-| ID                 | CT-018                                    |
+| ID                 | CT-017                                    |
 | Tipo de Teste      | Negativo                                  |
 | Prioridade         | Média                                     |
 | Objetivo           | Validar limite máximo de caracteres       |
@@ -138,7 +138,7 @@
 
 | Campo              | Descrição                                    |
 | ------------------ | -------------------------------------------- |
-| ID                 | CT-019                                       |
+| ID                 | CT-018                                       |
 | Tipo de Teste      | Usabilidade                                  |
 | Prioridade         | Média                                        |
 | Objetivo           | Validar feedback visual durante atualização  |
