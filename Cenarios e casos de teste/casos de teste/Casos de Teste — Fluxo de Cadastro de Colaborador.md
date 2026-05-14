@@ -29,8 +29,8 @@
 | Pré-condição       | Estar na tela de cadastro                                                   |
 | Passos             | 1. Acessar formulário<br>2. Deixar campos vazios<br>3. Clicar em “Salvar”   |
 | Resultado Esperado | Sistema deve impedir cadastro e exibir mensagens de validação               |
-| Resultado Obtido   | Campos aparentam não possuir validação robusta                              |
-| Status             | Falhou                                                                       |
+| Resultado Obtido   |    o    Sistema impediu o cadastro                       |
+| Status             | passou                                                                      |
 
 ---
 
