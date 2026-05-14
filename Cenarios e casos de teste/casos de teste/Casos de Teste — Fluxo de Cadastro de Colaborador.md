@@ -71,7 +71,7 @@
 
 | Campo              | Descrição                                                                 |
 | ------------------ | ------------------------------------------------------------------------- |
-| ID                 | CT-006                                                                    |
+| ID                 | CT-005                                                                    |
 | Tipo de Teste      | Exploratório                                                              |
 | Prioridade         | Média                                                                     |
 | Objetivo           | Verificar duplicidade de envio                                            |
@@ -87,7 +87,7 @@
 
 | Campo              | Descrição                                               |
 | ------------------ | ------------------------------------------------------- |
-| ID                 | CT-007                                                  |
+| ID                 | CT-006                                                  |
 | Tipo de Teste      | Negativo                                                |
 | Prioridade         | Média                                                   |
 | Objetivo           | Verificar tratamento de caracteres especiais            |
@@ -104,7 +104,7 @@
 
 | Campo              | Descrição                                    |
 | ------------------ | -------------------------------------------- |
-| ID                 | CT-008                                       |
+| ID                 | CT-007                                       |
 | Tipo de Teste      | Usabilidade                                  |
 | Prioridade         | Média                                        |
 | Objetivo           | Verificar feedback visual durante salvamento |
@@ -120,7 +120,7 @@
 
 | Campo              | Descrição                                            |
 | ------------------ | ---------------------------------------------------- |
-| ID                 | CT-009                                               |
+| ID                 | CT-008                                               |
 | Tipo de Teste      | Negativo                                             |
 | Prioridade         | Média                                                |
 | Objetivo           | Validar limite de entrada dos campos                 |
@@ -136,7 +136,7 @@
 
 | Campo              | Descrição                                                     |
 | ------------------ | ------------------------------------------------------------- |
-| ID                 | CT-010                                                        |
+| ID                 | CT-009                                                        |
 | Tipo de Teste      | Funcional                                                     |
 | Prioridade         | Alta                                                          |
 | Objetivo           | Verificar se colaborador permanece após atualização da página |
