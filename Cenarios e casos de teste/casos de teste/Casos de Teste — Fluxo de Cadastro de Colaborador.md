@@ -1,4 +1,4 @@
-# 🧪 Casos de Teste — Fluxo de Cadastro de Colaborador
+# Casos de Teste — Fluxo de Cadastro de Colaborador
 
 ---
 
