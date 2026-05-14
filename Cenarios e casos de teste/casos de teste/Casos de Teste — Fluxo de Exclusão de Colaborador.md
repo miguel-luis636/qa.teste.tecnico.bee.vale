@@ -13,8 +13,8 @@
 | Pré-condição       | Existir colaborador cadastrado                                       |
 | Passos             | 1. Acessar listagem<br>2. Clicar em excluir<br>3. Confirmar exclusão |
 | Resultado Esperado | Sistema deve remover colaborador da listagem                         |
-| Resultado Obtido   | A definir                                                            |
-| Status             | Não Executado                                                        |
+| Resultado Obtido   | removeu o colaborador da listagem                                                          |
+| Status             | passou                                                        |
                                                                      |
 ---
 
@@ -61,8 +61,8 @@
 | Pré-condição       | Exclusão realizada                                  |
 | Passos             | 1. Excluir colaborador                              |
 | Resultado Esperado | Registro deve desaparecer imediatamente da listagem |
-| Resultado Obtido   | A validar                                           |
-| Status             | Não Executado                                       |
+| Resultado Obtido   | desapareceu imediatamente da listagem                                            |
+| Status             | passou                                       |
 
 ---
 
@@ -77,8 +77,8 @@
 | Pré-condição       | Exclusão realizada                            |
 | Passos             | 1. Excluir colaborador<br>2. Atualizar página |
 | Resultado Esperado | Colaborador removido não deve reaparecer      |
-| Resultado Obtido   | A validar                                     |
-| Status             | Não Executado                                 |
+| Resultado Obtido   | Colaborador removido não deve reapareceu                                      |
+| Status             | passou                                |
 
 ---
 
@@ -93,8 +93,8 @@
 | Pré-condição       | Modal de exclusão aberto                        |
 | Passos             | 1. Confirmar exclusão                           |
 | Resultado Esperado | Sistema deve exibir loading e confirmação clara |
-| Resultado Obtido   | Feedback visual insuficiente                    |
-| Status             | Falhou                                          |
+| Resultado Obtido   |       exibiu loading e confirmação clara          |
+| Status             | Passou                                          |
 
 ---
 
@@ -109,5 +109,5 @@
 | Pré-condição       | Modal de confirmação aberto                                   |
 | Passos             | 1. Abrir modal de exclusão                                    |
 | Resultado Esperado | Modal deve informar claramente qual colaborador será removido |
-| Resultado Obtido   | Modal apresenta mensagem genérica                             |
+| Resultado Obtido   | não aparece modal nenhum                           |
 | Status             | Falhou                                                        |
