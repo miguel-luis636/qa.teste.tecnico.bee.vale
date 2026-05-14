@@ -13,8 +13,8 @@
 | Pré-condição       | Usuário deve estar na tela de cadastro                                                                                    |
 | Passos             | 1. Acessar formulário de cadastro<br>2. Preencher todos os campos obrigatórios com dados válidos<br>3. Clicar em “Salvar” |
 | Resultado Esperado | Sistema deve cadastrar colaborador com sucesso e exibir registro na listagem                                              |
-| Resultado Obtido   | A definir durante execução                                                                                                |
-| Status             | Não Executado                                                                                                             |
+| Resultado Obtido   | cadastrado com sucesso                                                                                               |
+| Status             | passou                                                                                                           |
 
 ---
 
@@ -30,7 +30,7 @@
 | Passos             | 1. Acessar formulário<br>2. Deixar campos vazios<br>3. Clicar em “Salvar”   |
 | Resultado Esperado | Sistema deve impedir cadastro e exibir mensagens de validação               |
 | Resultado Obtido   | Campos aparentam não possuir validação robusta                              |
-| Status             | Falhou                                                                      |
+| Status             | Falhou                                                                       |
 
 ---
 
@@ -45,8 +45,8 @@
 | Pré-condição       | Tela de cadastro aberta                                                              |
 | Passos             | 1. Preencher formulário<br>2. Inserir email inválido (`testeemail.com`)<br>3. Salvar |
 | Resultado Esperado | Sistema deve bloquear envio e informar erro de validação                             |
-| Resultado Obtido   | A validar                                                                            |
-| Status             | Não Executado                                                                        |
+| Resultado Obtido   | o sistema bloqueou                                                                          |
+| Status             | passou                                                                        |
 
 ---
 
@@ -62,8 +62,8 @@
 | Passos             | 1. Inserir CPF inválido<br>2. Salvar cadastro |
 | Dados de Teste     | CPF: 111                                      |
 | Resultado Esperado | Sistema deve rejeitar CPF inválido            |
-| Resultado Obtido   | A validar                                     |
-| Status             | Não Executado                                 |                                                                                          |
+| Resultado Obtido   | Aceitou com o CPF ERRADO                                     |
+| Status             | Falhou                                 |                                                                                          |
 
 ---
 
@@ -95,8 +95,8 @@
 | Passos             | 1. Inserir caracteres especiais nos campos<br>2. Salvar |
 | Dados de Teste     | Nome: @@@###$$$                                         |
 | Resultado Esperado | Sistema deve validar entrada ou sanitizar dados         |
-| Resultado Obtido   | A validar                                               |
-| Status             | Não Executado                                           |
+| Resultado Obtido   | Aceita cadastro com o nome errado                                               |
+| Status             | Falhou                                          |
 
 ---
 
@@ -111,8 +111,8 @@
 | Pré-condição       | Formulário preenchido                        |
 | Passos             | 1. Realizar cadastro                         |
 | Resultado Esperado | Sistema deve exibir loading, sucesso ou erro |
-| Resultado Obtido   | Não há feedback visual consistente           |
-| Status             | Falhou                                       |
+| Resultado Obtido   | há feedback visual consistente           |
+| Status             | Passou                                  |
 
 ---
 
@@ -127,8 +127,8 @@
 | Pré-condição       | Tela de cadastro disponível                          |
 | Passos             | 1. Inserir texto muito longo nos campos<br>2. Salvar |
 | Resultado Esperado | Sistema deve limitar quantidade de caracteres        |
-| Resultado Obtido   | A validar                                            |
-| Status             | Não Executado                                        |
+| Resultado Obtido   | Não tem limites de quantidade de caracteres                                          |
+| Status             | Falhou                                       |
 
 ---
 
@@ -143,5 +143,5 @@
 | Pré-condição       | Cadastro realizado                                            |
 | Passos             | 1. Cadastrar colaborador<br>2. Atualizar página               |
 | Resultado Esperado | Registro deve permanecer salvo                                |
-| Resultado Obtido   | A validar                                                     |
-| Status             | Não Executado                                                 |
+| Resultado Obtido   | Permaneceu salvo|
+| Status             | Passou                                                |
