@@ -1,8 +1,8 @@
-# 🧪 Casos de Teste — Fluxo de Exclusão de Colaborador
+# Casos de Teste — Fluxo de Exclusão de Colaborador
 
 ---
 
-# 🔹 CT-019 — Excluir colaborador existente com sucesso
+# CT-019 — Excluir colaborador existente com sucesso
 
 | Campo              | Descrição                                                            |
 | ------------------ | -------------------------------------------------------------------- |
@@ -18,7 +18,7 @@
                                                                      |
 ---
 
-# 🔹 CT-020 — Validar erro de objeto undefined durante exclusão
+#  CT-020 — Validar erro de objeto undefined durante exclusão
 
 | Campo              | Descrição                                                            |
 | ------------------ | -------------------------------------------------------------------- |
@@ -34,7 +34,7 @@
 
 ---
 
-# 🔹 CT-021 — Validar dupla execução da exclusão
+#  CT-021 — Validar dupla execução da exclusão
 
 | Campo              | Descrição                                                |
 | ------------------ | -------------------------------------------------------- |
@@ -50,7 +50,7 @@
 
 ---
 
-# 🔹 CT-022 — Validar atualização da listagem após exclusão
+# CT-022 — Validar atualização da listagem após exclusão
 
 | Campo              | Descrição                                           |
 | ------------------ | --------------------------------------------------- |
@@ -66,7 +66,7 @@
 
 ---
 
-# 🔹 CT-023 — Validar persistência da exclusão após refresh
+# CT-023 — Validar persistência da exclusão após refresh
 
 | Campo              | Descrição                                     |
 | ------------------ | --------------------------------------------- |
@@ -82,7 +82,7 @@
 
 ---
 
-# 🔹 CT-024 — Validar feedback visual durante exclusão
+# CT-024 — Validar feedback visual durante exclusão
 
 | Campo              | Descrição                                       |
 | ------------------ | ----------------------------------------------- |
@@ -98,7 +98,7 @@
 
 ---
 
-# 🔹 CT-025 — Validar clareza do modal de confirmação
+# CT-025 — Validar clareza do modal de confirmação
 
 | Campo              | Descrição                                                     |
 | ------------------ | ------------------------------------------------------------- |
