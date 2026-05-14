@@ -1,4 +1,4 @@
-# 📋 Desafio QA – Bee Vale & Rambly (2026)
+# 📋 Desafio QA – Bee Vale(2026)
 
 ## 🔗 Aplicação analisada
 
@@ -44,7 +44,7 @@ Apesar de ser uma aplicação simples, ela simula um sistema real de gestão int
 Foi elaborado um **Plano de Testes** contendo estratégia, abordagem, escopo, técnicas e organização da execução.
 
 📎 Acesse aqui:
-[Plano de Testes – Bee Vale & Rambly](https://github.com/miguel-luis636/DESAFIO-QA-BEEDOO-2026/blob/main/Plano%20de%20Testes%20%E2%80%93%20Sistema%20de%20Cadastro%20de%20Cursos%20%28Beedoo%29.md)
+[Plano de Testes – Bee Vale & Rambly]()
 
 ---
 
