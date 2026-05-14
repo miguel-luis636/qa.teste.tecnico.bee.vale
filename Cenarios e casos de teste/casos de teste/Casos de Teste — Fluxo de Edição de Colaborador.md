@@ -1,4 +1,4 @@
-# 🧪 Casos de Teste — Fluxo de Edição de Colaborador
+# Casos de Teste — Fluxo de Edição de Colaborador
 
 ---
 
