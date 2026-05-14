@@ -14,8 +14,8 @@
 | Passos             | 1. Acessar listagem<br>2. Clicar em editar<br>3. Alterar dados válidos<br>4. Salvar |
 | Dados de Teste     | Alterar cargo de “QA Jr” para “QA Pleno”                                            |
 | Resultado Esperado | Sistema deve salvar alterações e atualizar listagem                                 |
-| Resultado Obtido   | A definir                                                                           |
-| Status             | Não Executado                                                                       |
+| Resultado Obtido   | Salva as alterações e atualiza a listagem                                                                            |
+| Status             | Passou                                                                      |
 
 ---
 
@@ -30,8 +30,8 @@
 | Pré-condição       | Existir colaborador cadastrado                                                   |
 | Passos             | 1. Editar colaborador<br>2. Remover conteúdo de campos obrigatórios<br>3. Salvar |
 | Resultado Esperado | Sistema deve impedir atualização e exibir mensagens de validação                 |
-| Resultado Obtido   | A validar                                                                        |
-| Status             | Não Executado                                                                    |
+| Resultado Obtido   | Bloqueia                                                                     |
+| Status             | Passou                                                                   |
 
 ---
 
@@ -47,8 +47,8 @@
 | Passos             | 1. Editar colaborador<br>2. Inserir email inválido<br>3. Salvar |
 | Dados de Teste     | `emailinvalido.com`                                             |
 | Resultado Esperado | Sistema deve bloquear atualização                               |
-| Resultado Obtido   | A validar                                                       |
-| Status             | Não Executado                                                   |
+| Resultado Obtido   | bloqueia a atualização                                                          |
+| Status             | Passou                                                  |
 
 ---
 
@@ -64,8 +64,8 @@
 | Passos             | 1. Editar colaborador<br>2. Inserir CPF inválido<br>3. Salvar |
 | Dados de Teste     | CPF: 123                                                      |
 | Resultado Esperado | Sistema deve impedir atualização                              |
-| Resultado Obtido   | A validar                                                     |
-| Status             | Não Executado                                                 |
+| Resultado Obtido   | Atualiza com cpf inválido                                                    |
+| Status             | Falhou                                                |
 
 ---
 
@@ -80,8 +80,8 @@
 | Pré-condição       | Edição realizada com sucesso                     |
 | Passos             | 1. Editar colaborador<br>2. Atualizar página     |
 | Resultado Esperado | Dados alterados devem permanecer salvos          |
-| Resultado Obtido   | A validar                                        |
-| Status             | Não Executado                                    |
+| Resultado Obtido   |  os dados permanecem salvos                                       |
+| Status             | Passou                                    |
 
 ---
 
@@ -96,8 +96,8 @@
 | Pré-condição       | Tela de edição aberta                      |
 | Passos             | 1. Alterar dados<br>2. Cancelar edição     |
 | Resultado Esperado | Alterações não devem ser salvas            |
-| Resultado Obtido   | A validar                                  |
-| Status             | Não Executado                              |
+| Resultado Obtido   | Alterações não salvas                                 |
+| Status             | Passou                            |
 
 ---
 
@@ -113,8 +113,8 @@
 | Passos             | 1. Inserir caracteres especiais<br>2. Salvar |
 | Dados de Teste     | Nome: `@@@###$$$`                            |
 | Resultado Esperado | Sistema deve validar ou sanitizar entrada    |
-| Resultado Obtido   | A validar                                    |
-| Status             | Não Executado                                |
+| Resultado Obtido   | o sistema permite a atualização                                    |
+| Status             | Falhou                                |
 
 ---
 
@@ -129,8 +129,8 @@
 | Pré-condição       | Tela de edição disponível                 |
 | Passos             | 1. Inserir texto muito longo<br>2. Salvar |
 | Resultado Esperado | Sistema deve limitar tamanho dos campos   |
-| Resultado Obtido   | A validar                                 |
-| Status             | Não Executado                             |
+| Resultado Obtido   | não limita os campos                               |
+| Status             | Falhou                        |
 
 ---
 
@@ -145,5 +145,5 @@
 | Pré-condição       | Tela de edição aberta                        |
 | Passos             | 1. Salvar alterações                         |
 | Resultado Esperado | Sistema deve exibir loading, sucesso ou erro |
-| Resultado Obtido   | Feedback visual insuficiente                 |
-| Status             | Falhou                                       |
+| Resultado Obtido   | Feedback visual suficiente                 |
+| Status             | Passou                                       |
