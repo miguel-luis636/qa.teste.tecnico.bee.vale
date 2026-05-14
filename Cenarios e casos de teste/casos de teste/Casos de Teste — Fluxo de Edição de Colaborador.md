@@ -2,7 +2,7 @@
 
 ---
 
-# 🔹 CT-010 — Editar colaborador com dados válidos
+# CT-010 — Editar colaborador com dados válidos
 
 | Campo              | Descrição                                                                           |
 | ------------------ | ----------------------------------------------------------------------------------- |
@@ -19,7 +19,7 @@
 
 ---
 
-# 🔹 CT-011 — Editar colaborador deixando campos obrigatórios vazios
+# CT-011 — Editar colaborador deixando campos obrigatórios vazios
 
 | Campo              | Descrição                                                                        |
 | ------------------ | -------------------------------------------------------------------------------- |
@@ -35,7 +35,7 @@
 
 ---
 
-# 🔹 CT-012 — Editar colaborador com email inválido
+# CT-012 — Editar colaborador com email inválido
 
 | Campo              | Descrição                                                       |
 | ------------------ | --------------------------------------------------------------- |
@@ -52,7 +52,7 @@
 
 ---
 
-# 🔹 CT-013 — Editar colaborador com CPF inválido
+#  CT-013 — Editar colaborador com CPF inválido
 
 | Campo              | Descrição                                                     |
 | ------------------ | ------------------------------------------------------------- |
@@ -69,7 +69,7 @@
 
 ---
 
-# 🔹 CT-014 — Verificar persistência dos dados editados
+# CT-014 — Verificar persistência dos dados editados
 
 | Campo              | Descrição                                        |
 | ------------------ | ------------------------------------------------ |
@@ -85,7 +85,7 @@
 
 ---
 
-# 🔹 CT-015 — Cancelar edição de colaborador
+# CT-015 — Cancelar edição de colaborador
 
 | Campo              | Descrição                                  |
 | ------------------ | ------------------------------------------ |
@@ -101,7 +101,7 @@
 
 ---
 
-# 🔹 CT-016 — Editar colaborador com caracteres especiais
+# CT-016 — Editar colaborador com caracteres especiais
 
 | Campo              | Descrição                                    |
 | ------------------ | -------------------------------------------- |
@@ -118,7 +118,7 @@
 
 ---
 
-# 🔹 CT-017 — Editar colaborador com texto excessivamente longo
+# CT-017 — Editar colaborador com texto excessivamente longo
 
 | Campo              | Descrição                                 |
 | ------------------ | ----------------------------------------- |
@@ -134,7 +134,7 @@
 
 ---
 
-# 🔹 CT-018 — Verificar feedback visual durante edição
+# CT-018 — Verificar feedback visual durante edição
 
 | Campo              | Descrição                                    |
 | ------------------ | -------------------------------------------- |
